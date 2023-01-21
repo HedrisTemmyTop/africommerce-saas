@@ -82,6 +82,24 @@
   background-color: #e62e04;
   color: white;
 }
+.PagBtns {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.PagBtn {
+  padding: 10px 20px;
+  background-color: #e62e04;
+  color: #fff;
+  border: 0;
+  font-size: 16px;
+  border-radius: 5px;
+  /* margin-right: ; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 @media only screen and (max-width: 1000px) {
   .SellersContainer {

@@ -4,6 +4,7 @@ import { cartReducers } from './cart-slice';
 import { uiReducers } from './ui-Slice';
 import { subscribeReducers } from './subscribeModal';
 // import { loginSliceReducer } from './LoginSlice';
+import allSellerSlice from './allSellerSlice';
 
 const store = configureStore({
   reducer: {
@@ -11,6 +12,8 @@ const store = configureStore({
     ui: uiReducers,
     form: addFormReducers,
     subscribe: subscribeReducers,
+    all_sellers: allSellerSlice,
+
     // login: loginSliceReducer,
   },
 });
